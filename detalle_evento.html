@@ -29,7 +29,7 @@
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>
 	<![endif]-->
 
-</head>
+
 
 <body>
 	<!--[if lt IE 9]>
@@ -40,37 +40,7 @@
 		<div class="preloader_image"></div>
 	</div>
 
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">
-				<i class="rt-icon2-cross2"></i>
-			</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form form-inline" action="./">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="theme_button">Search</button>
-			</form>
-		</div>
-	</div>
-
-	<!-- Unyson messages modal -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-		<div class="fw-messages-wrap ls with_padding">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
-
-		</div>
-	</div>
-	<!-- eof .modal -->
-
+	
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
 		<div id="box_wrapper">
@@ -105,10 +75,12 @@
 										</li>
 										<!-- eof blog -->
 
-										<li>
+										<li class="active">
 											<a href="eventos.html">Eventos</a>
 										</li>
 										<!-- eof features -->
+
+
 										<li>
 											<a>Actividades</a>
 											<ul>
@@ -126,7 +98,7 @@
 										<!-- eof pages -->
 
 										<!-- gallery -->
-										<li class="active">
+										<li>
 											<a href="galeria.html">Galería</a>
 										</li>
 										<!-- eof Gallery -->
@@ -151,126 +123,65 @@
 
 			</header>
 
-
-
-			<section class="ls section_padding_top_100 section_padding_bottom_75">
+			
+			<section class="ls section_padding_top_100 section_padding_bottom_100 columns_padding_25">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-10 col-md-push-1">
-							<div id="gallery-owl-carousel" class="owl-carousel dots-center" data-dots="true" data-items="1" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-responsive-xs="1">
 
+						<div class="col-sm-10 col-sm-push-1">
 
-								<div class="vertical-item content-padding gallery-extended-item with_background text-center">
-									<div class="item-media">
-										<img src="images/gallery/01.jpg" alt="">
-										<div class="media-links">
-											<a class="abs-link" title="" href="gallery-single.html"></a>
-										</div>
-									</div>
-									<div class="item-content">
-										<h3 class="item-title">
-											<a href="gallery-single.html">Church Movie Fellowship Inspires</a>
-										</h3>
-
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis pariatur incidunt voluptate adipisci mollitia quibusdam molestiae laboriosam. Veritatis esse cum.</p>
-
-									</div>
+							<article class="event-single vertical-item with_background">
+								<div class="item-media entry-thumbnail">
+									<img src="images/gallery/01.jpg" alt="">
 								</div>
 
-								<div class="vertical-item content-padding gallery-extended-item with_background text-center">
-									<div class="item-media">
-										<img src="images/gallery/02.jpg" alt="">
-										<div class="media-links">
-											<a class="abs-link" title="" href="gallery-single.html"></a>
+								<div class="item-content">
+
+									<div class="with_padding">
+
+										<header class="entry-header">
+
+											<h1 class="entry-title">
+												<a href="event-single-left.html" rel="bookmark">Ejemplo del detalle de un evento </a>
+											</h1>
+
+										</header>
+										<!-- .entry-header -->
+
+										<div class="entry-content">
+											<p class="big-first-letter">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+								</p>
+											<p>
+									Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel <a href="#">illum dolore eu feugiat</a> nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo.
+								</p>
+
 										</div>
-									</div>
-									<div class="item-content">
-										<h3 class="item-title">
-											<a href="gallery-single.html">Boudin alcatra bacon</a>
-										</h3>
-
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, fugiat pariatur laudantium magnam temporibus ea nemo vero ipsum modi saepe ratione ad obcaecati omnis laborum quidem.</p>
 
 									</div>
-								</div>
 
-								<div class="vertical-item content-padding gallery-extended-item with_background text-center">
-									<div class="item-media">
-										<img src="images/gallery/03.jpg" alt="">
-										<div class="media-links">
-											<a class="abs-link" title="" href="gallery-single.html"></a>
+									<footer class="with_top_border entry-meta highlightlinks">
+										<div class="content-justify">
+											<span class="entry-date">
+												<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+													30 de Octubre, 2017
+												</time>
+											</span>
+											
 										</div>
-									</div>
-									<div class="item-content">
-										<h3 class="item-title">
-											<a href="gallery-single.html">Pork chop meatball strip steak bresaola</a>
-										</h3>
+									</footer>
 
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab molestias nulla dolore ipsa, exercitationem praesentium, quia hic, ea illo sint necessitatibus nihil</p>
-
-									</div>
 								</div>
+								<!-- .item-content -->
 
-								<div class="vertical-item content-padding gallery-extended-item with_background text-center">
-									<div class="item-media">
-										<img src="images/gallery/04.jpg" alt="">
-										<div class="media-links">
-											<a class="abs-link" title="" href="gallery-single.html"></a>
-										</div>
-									</div>
-									<div class="item-content">
-										<h3 class="item-title">
-											<a href="gallery-single.html">Pork burgdoggen hamburger</a>
-										</h3>
+							</article>
 
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sed cumque assumenda, provident veniam qui a porro magnam autem fuga quos esse.</p>
-
-									</div>
-								</div>
-
-								<div class="vertical-item content-padding gallery-extended-item with_background text-center">
-									<div class="item-media">
-										<img src="images/gallery/05.jpg" alt="">
-										<div class="media-links">
-											<a class="abs-link" title="" href="gallery-single.html"></a>
-										</div>
-									</div>
-									<div class="item-content">
-										<h3 class="item-title">
-											<a href="gallery-single.html">Alcatra shoulder porchetta doner</a>
-										</h3>
-
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum velit, repellendus, ex provident ab debitis tempore molestiae sint consequuntur maiores blanditiis.</p>
-
-									</div>
-								</div>
-
-								<div class="vertical-item content-padding gallery-extended-item with_background text-center">
-									<div class="item-media">
-										<img src="images/gallery/06.jpg" alt="">
-										<div class="media-links">
-											<a class="abs-link" title="" href="gallery-single.html"></a>
-										</div>
-									</div>
-									<div class="item-content">
-										<h3 class="item-title">
-											<a href="gallery-single.html">Frankfurter filet mignon ham</a>
-										</h3>
-
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quasi neque dicta in deleniti debitis, culpa quas labore ad, porro rem excepturi aliquam possimus.</p>
-
-									</div>
-								</div>
-
-
-							</div>
-						</div>
+							
 
 
 					</div>
 				</div>
 			</section>
-
 
 			<footer class="page_footer ds section_padding_top_75 section_padding_bottom_65">
 				<div class="container">
@@ -369,6 +280,7 @@
 					</div>
 				</div>
 			</footer>
+
 
 			<section class="ls page_copyright table_section section_padding_50">
 				<div class="container">
